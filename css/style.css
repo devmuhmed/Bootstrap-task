@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    font-family: "Poppins",sans-serif;
+    color: #7777;
+    /* overflow-x: hidden; */
+    
+}
+.navbar{
+    /* he used navcustom  instead of navbar */
+    height: 70px;
+    background-color: white;
+    
+}
+.nav-link{
+    color: #222;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.backimage {
+    background-image: url("../img/banner_bg.jpg");
+    background-size: cover;
+    position: relative;
+    height: 700px;
+    
+}
+header{
+    position: absolute;
+    z-index: 25;
+    width: 100%;
+    
+}
+.lyr{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    
+}
+.content{
+    width: 500px;
+    height: 100%;
+    
+}
+.content h6{
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    font-weight: 400;
+    color: white;
+}
+.content h2{
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    color: white;
+}
+.content p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 10px 0px 20px;
+    color: white;
+}
+.content a{
+    color: white;
+    background-color: #f3c300;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.book{
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    margin: auto;
+    /* height: 150px; */
+    background-color: #04091e;
+    display: flex;
+    align-items: center;
+    padding: 40px 50px 30px;
+}
+
+.book div h2{
+    font-size: 24px;
+    line-height: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+input[type="text"]{
+    margin-bottom :10px;
+    background-color: transparent;
+    border: 1px solid #2b3146;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+.box_cal{
+    position: relative;
+}
+.box_cal span{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.btnbook{
+    color: white;
+    background-color: #f3c300;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 10px 87px;
+    text-decoration: none;
+}
+
+.hotel-section{
+    margin-top: 120px;
+}
+.hotel-content h1{
+    font-size: 36px;
+    line-height: 45px;
+    font-family: 600;
+    color: #222;
+}
+.hotel-content p{
+    font-size: 14px;
+    line-height: 30px;
+    color: #7777;
+}
+.hotel-image{
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.hotel-image img{
+    width: 100%;
+}
+.hotel-image img:hover{
+    border-radius: 10px;
+    transform: scale(1.2);
+    transition: all 1s;
+}
+.hotel-image a{
+    color: white;
+    background-color: #f3c300;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 15px;
+    left: 32%;
+}
+.hotel-word{
+    text-align: center;
+}
+.hotel-word a{
+    font-size: 18px;
+    line-height: 38px;
+    font-weight: 600;
+    color: #222222;
+    text-decoration: none;
+}
+.hotel-word h5{
+    font-size: 24px;
+    line-height: 28px;
+    color: #52c5fd;
+    font-weight: 600;
+}
+
+.facilites-section{
+    background-image: url(../img/facilites_bg.jpg);
+    background-size: cover;
+    height: 700px;
+    position: relative;
+}
+.lyr2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(4, 9, 30, 0.8);
+}
+
+.facilites-content h2{
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 600;
+}
+.facilites-content p{
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 30px;
+    color: #777777;
+}
+.facilite{
+    border: 1px solid #777777;
+    border-radius: 10px;
+    background-color: rgba(249, 249, 255, 0.102);
+    padding: 31px 40px 37px;
+    color: #fff;
+    width: 31%;
+    margin: 45px 30px 30px 0px;
+    /* margin-top: 50px; 
+    margin-right: 30px;
+    margin-bottom: 30px; */
+}
+.facilite .sec_h {
+    padding-bottom: 18px;
+    color: #fff;
+}
+.facilite .sec_h i{
+    color: #f3c300;
+    font-size: 24px;
+    line-height: 38px;
+    padding-right: 20px;
+}
+.facilite p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0px;
+}
